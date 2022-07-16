@@ -9,6 +9,8 @@ import java.util.List;
  * One person can bribe at most two others.
  * Determine the minimum number of bribes that took place to get to a given queue order.
  * Print the number of bribes, or, if anyone has bribed more than two people, print Too chaotic.
+ *
+ * Solution by Isaiah
  */
 public class NewYearBribeChaos {
     public static void minimumBribes(List<Integer> q) {
