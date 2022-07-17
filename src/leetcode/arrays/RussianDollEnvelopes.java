@@ -14,7 +14,14 @@ public class RussianDollEnvelopes {
     public static void main(String[] args) {
         int[][] envs = {{5,4},{6,4},{6,7},{2,3}};
 //        System.out.println("max " + maxEnvelopes(envs));
-        System.out.println("result of division: " + dividedBy(0, 2));
+        solve();
+    }
+
+
+    public static void solve() {
+        int ans = 0;
+
+        System.out.println("max " + ans);
     }
 
     public static int maxEnvelopes(int[][] envelopes) {
@@ -40,9 +47,5 @@ public class RussianDollEnvelopes {
 //                .map(entity -> )
 //                .toList();
         return maxEnv;
-    }
-
-    public static int dividedBy(int number, int divider) {
-        return number/divider;
     }
 }
